@@ -21,13 +21,12 @@ public class Ejercicio8 {
         comparacionArreglos(palabrasA, palabrasB);
     }
 
-    public String[] ingresarDatos(String[] palabras, int indice){ //Rellenar el arreglo con palabras
+    public void ingresarDatos(String[] palabras, int indice){ //Rellenar el arreglo con palabras
         System.out.println("\n====    Palabras Arreglo "+(indice)+"  ====\n");
         for (int i = 0; i < 5; i++) {
             System.out.print("Paralabra No "+(i+1)+" : ");
             palabras[i] = sc.next();
         }
-        return palabras;
     }
 
     public void mostrarDatos(String[] palabras, int indice){

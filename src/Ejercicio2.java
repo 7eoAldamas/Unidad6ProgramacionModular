@@ -15,11 +15,10 @@ public class Ejercicio2 {
         elementoMayor(numeros);
     }
 
-    public int[] ingresarDatos() { //Ingresamos los datos al arreglo
+    public void ingresarDatos() { //Ingresamos los datos al arreglo
         for (int i = 0; i < 10; i++) {
             numeros[i] = (int)(Math.random()*100); //Números Aleatorios
         }
-        return numeros;
     }
 
     public void mostrarDatos(int[] numeros){ //Recorremos y mostramos los datos del arreglo

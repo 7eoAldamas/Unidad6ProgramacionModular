@@ -15,11 +15,11 @@ public class Ejercicio10 {
     }
 
     private void initEjercicio() {
-        ingresarDatos(matriz);
+        ingresarDatos();
         mostrarMatrices(matriz);
     }
 
-    public int[][] ingresarDatos(int[][] matriz){ //Ingresamos los valores de nuestra matriz
+    public void ingresarDatos(){ //Ingresamos los valores de nuestra matriz
         System.out.println("\n====    Matriz   ====\n");
         for (int i = 0; i < FILAS_MAX; i++) {
             for (int j = 0; j < COLUM_MAX; j++) {
@@ -28,7 +28,6 @@ public class Ejercicio10 {
             }
             System.out.println("");
         }
-        return matriz;
     }
 
     public void mostrarMatrices(int[][] matriz){ //Mostramos e imprimimos tanto la matriz original como la matriz transpuesta

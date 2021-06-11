@@ -14,21 +14,20 @@ public class Ejercicio11 {
     }
 
     private void initEjercicio() {
-        ingresarNombre(nombres);
-        ingresarNotas(notas);
+        ingresarNombre();
+        ingresarNotas();
         mostrarResultados(nombres, notas);
     }
 
-    public String[] ingresarNombre(String[] nombres){
+    public void ingresarNombre(){
         System.out.println("\n====    Ingrese los nombres de los estudiantes   ====\n");
         for (int i = 0; i < nombres.length; i++) {
             System.out.print(" Estudiante No ["+i+"] : ");
             nombres[i] = sc.nextLine();
         }
-        return nombres;
     }
 
-    public double[] ingresarNotas(double[] notas){
+    public void ingresarNotas(){
         double nota;
 
         System.out.println("\n====    Ingrese las notas de los estudiantes   ====\n");
@@ -41,7 +40,6 @@ public class Ejercicio11 {
                         System.out.println("Ingresar Notas Validas");
                     }
         }
-        return notas;
     }
 
     public String resultadoNota(double nota){

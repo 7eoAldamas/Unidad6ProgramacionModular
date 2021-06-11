@@ -14,12 +14,12 @@ public class Ejercicio5 {
     }
 
     private void initEjercicio() {
-        ingresarDatos(notas);
+        ingresarDatos();
         mostrarDatos();
 
     }
 
-    public int[] ingresarDatos(int[] notas){
+    public void ingresarDatos(){
         int temp = 0;
         System.out.println("\n====    Ingrese valores de 0 - 10   ====\n");
         System.out.println("Nota : para terminar de ingresar las notas, ingrese ' -50 '");
@@ -34,8 +34,6 @@ public class Ejercicio5 {
                 break; //Rompemos - Terminamos de ingresar más datos
             }
         }
-
-        return notas;
     }
 
     public void mostrarDatos(){

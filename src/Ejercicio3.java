@@ -19,13 +19,12 @@ public class Ejercicio3 {
         busquedaDato(numeros);
     }
 
-    public int[] ingresarDatos() { //Ingresamos los datos del arreglo
+    public void ingresarDatos() { //Ingresamos los datos del arreglo
         System.out.println("====    Ingresar 8 numeros enteros   ====");
         for (int i = 0; i < 8; i++) {
             System.out.print("Dato [" + (i) + "] :");
             numeros[i] = sc.nextInt();
         }
-        return numeros;
     }
 
     public void mostrarDatos(int[] numeros) { //Recorremos y mostramos los valores del arreglo

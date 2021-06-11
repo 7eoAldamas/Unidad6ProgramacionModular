@@ -19,11 +19,10 @@ public class Ejercicio4 {
 
     }
 
-    public int[] ingresarDatos(){ //Ingresamos los datos al arreglo
+    public void ingresarDatos(){ //Ingresamos los datos al arreglo
         for (int i = 0; i < 10; i++) {
             numeros[i] = (int)(Math.random()*100); //Números Aleatorios
         }
-        return numeros;
     }
 
     public void mostrarDatos(int[] numeros){

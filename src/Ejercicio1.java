@@ -17,13 +17,13 @@ public class Ejercicio1 {
         mostrarDatos(numeros);
     }
 
-    public int[] ingresarDatos() { //Ingresamos los datos al arreglo
+    public void ingresarDatos() { //Ingresamos los datos al arreglo
         System.out.println("====    Ingrese 5 valores   ====");
         for (int i = 0; i < 5; i++) {
             System.out.print("Dato [" + (i + 1) + "] :");
             numeros[i] = sc.nextInt();
         }
-        return numeros;
+
     }
 
     public void mostrarDatos(int[] numeros) { //Recorremos y mostramos los datos del arreglo

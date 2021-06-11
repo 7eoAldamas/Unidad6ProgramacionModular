@@ -17,13 +17,12 @@ public class Ejercicio7 {
         sumaFilaPar(aleatorios);
     }
 
-    public int[][] ingresarDatos(){ //Ingresamos los datos al arreglo
+    public void ingresarDatos(){ //Ingresamos los datos al arreglo
         for (int i = 0; i < FILAS; i++) {
             for (int j = 0; j < COLUMNAS; j++) {
                 aleatorios[i][j] = (int)(Math.random()*555)+1;
             }
         }
-        return aleatorios;
     }
 
     public void mostrarDatos(int[][] aleatorios){ //Recorremos y mostramos el arreglo
