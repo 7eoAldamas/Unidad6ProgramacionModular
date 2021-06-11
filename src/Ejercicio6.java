@@ -1,7 +1,6 @@
 public class Ejercicio6 {
 //---
 
-    String nombre;
     int[][] datos = {{5, 6, 13}, {14, 2, 4}, {21, 7, 6}}; //Elementos de la matriz (3*3)
 
     //--- Constructor Ejercicio6

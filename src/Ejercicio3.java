@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Ejercicio3 {
 //---
 
-    String nombre;
     int[] numeros = new int[8]; //Arreglo de 8 elementos
     boolean encontrado = false;
     Scanner sc = new Scanner(System.in);

@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Ejercicio4 {
 //---
 
-    String nombre;
     int[] numeros = new int[10]; //Arreglo de 10 elementos
     Scanner sc = new Scanner(System.in);
 

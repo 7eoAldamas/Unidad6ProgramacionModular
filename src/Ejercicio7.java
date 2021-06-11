@@ -1,7 +1,6 @@
 public class Ejercicio7 {
 //---
 
-    String nombre;
     final int FILAS = 4;
     final int COLUMNAS = 3;
     int[][] aleatorios = new int[FILAS][COLUMNAS]; //Arreglo de 4*3 (Matriz)
@@ -27,7 +26,7 @@ public class Ejercicio7 {
         return aleatorios;
     }
 
-    public void mostrarDatos(int[][] aleatorios){
+    public void mostrarDatos(int[][] aleatorios){ //Recorremos y mostramos el arreglo
         System.out.println("====    Matriz   ====\n");
         for (int i = 0; i < FILAS; i++) {
             for (int j = 0; j < COLUMNAS; j++) {

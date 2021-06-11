@@ -1,7 +1,6 @@
 public class Ejercicio2 {
 //---
 
-    String nombre;
     int[] numeros = new int[10]; //Arreglo de 10 elementos aleatorios
 
     //--- Constructor de Ejercicio2
